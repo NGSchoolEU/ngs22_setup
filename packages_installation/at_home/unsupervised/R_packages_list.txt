@@ -1,0 +1,13 @@
+# CRAN
+remotes
+tidyverse
+patchwork
+ggsci
+glue
+palmerpenguins
+gmodels
+BiocManager
+# remotes/github
+jokergoo/ComplexHeatmap
+# Bioconductor
+SummarizedExperiment
