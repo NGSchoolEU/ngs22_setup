@@ -11,7 +11,7 @@ packagesList = c(
   'ggplot2',
   'plotly',
   'bookdown',
-  'devtools',
+  'devtools'
 )
 
 for (packageName in packagesList) {
