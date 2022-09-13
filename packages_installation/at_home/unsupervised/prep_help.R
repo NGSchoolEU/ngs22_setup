@@ -7,10 +7,12 @@ needed_packages <-
   c("remotes", 
     # data wrangling and plotting packages
     "tidyverse", "patchwork", "ggsci", "glue", 
+    # interactive tutorial
+    "shiny",
     # toy datasets
     "palmerpenguins", 
-    # fast PCA
-    "gmodels",
+    # UMAP
+    "umap",
     # installing Bioconductor packages
     "BiocManager")
 
@@ -38,7 +40,8 @@ for (pkg in needed_packages) {
 
 # additional packages from github
 needed_packages_remotes <- 
-  c("jokergoo/ComplexHeatmap")
+  c("jokergoo/ComplexHeatmap", "rstudio/learnr", 
+    "rstudio/gradethis", "hadley/emo")
 
 for (pkg in needed_packages_remotes) {
   pkg_name <- basename(pkg)

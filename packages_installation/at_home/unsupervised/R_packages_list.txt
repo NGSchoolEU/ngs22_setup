@@ -5,9 +5,15 @@ patchwork
 ggsci
 glue
 palmerpenguins
-gmodels
 BiocManager
+umap
+shiny
+
 # remotes/github
 jokergoo/ComplexHeatmap
+rstudio/learnr
+rstudio/gradethis
+hadley/emo
+
 # Bioconductor
 SummarizedExperiment
